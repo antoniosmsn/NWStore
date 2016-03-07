@@ -113,5 +113,194 @@ namespace Northwind.Store.Model.Resource {
                 return ResourceManager.GetString("CategoryNameTitle", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Direccion.
+        /// </summary>
+        public static string SupplierAddress {
+            get {
+                return ResourceManager.GetString("SupplierAddress", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to La direccion es requerida.
+        /// </summary>
+        public static string SupplierAddressRequired {
+            get {
+                return ResourceManager.GetString("SupplierAddressRequired", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ciudad.
+        /// </summary>
+        public static string SupplierCity {
+            get {
+                return ResourceManager.GetString("SupplierCity", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to La ciudad es requerida.
+        /// </summary>
+        public static string SupplierCityRequired {
+            get {
+                return ResourceManager.GetString("SupplierCityRequired", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Nombre empresa.
+        /// </summary>
+        public static string SupplierCompanyName {
+            get {
+                return ResourceManager.GetString("SupplierCompanyName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Se requiere entre {2} y {1} caracteres.
+        /// </summary>
+        public static string SupplierCompanyNameLength {
+            get {
+                return ResourceManager.GetString("SupplierCompanyNameLength", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to El nombre de la empresa es requerido.
+        /// </summary>
+        public static string SupplierCompanyNameRequired {
+            get {
+                return ResourceManager.GetString("SupplierCompanyNameRequired", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Nombre contacto.
+        /// </summary>
+        public static string SupplierContactName {
+            get {
+                return ResourceManager.GetString("SupplierContactName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Se requiere entre {2} y {1} caracteres.
+        /// </summary>
+        public static string SupplierContactNameLength {
+            get {
+                return ResourceManager.GetString("SupplierContactNameLength", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to El nombre del contacto es requerido.
+        /// </summary>
+        public static string SupplierContactNameRequired {
+            get {
+                return ResourceManager.GetString("SupplierContactNameRequired", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Titulo del contacto.
+        /// </summary>
+        public static string SupplierContactTitle {
+            get {
+                return ResourceManager.GetString("SupplierContactTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Pais.
+        /// </summary>
+        public static string SupplierCountry {
+            get {
+                return ResourceManager.GetString("SupplierCountry", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to El pais es requerido.
+        /// </summary>
+        public static string SupplierCountryRequired {
+            get {
+                return ResourceManager.GetString("SupplierCountryRequired", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Fax.
+        /// </summary>
+        public static string SupplierFax {
+            get {
+                return ResourceManager.GetString("SupplierFax", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sitio web.
+        /// </summary>
+        public static string SupplierHomePage {
+            get {
+                return ResourceManager.GetString("SupplierHomePage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Telefono.
+        /// </summary>
+        public static string SupplierPhone {
+            get {
+                return ResourceManager.GetString("SupplierPhone", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to El  numero telefonico es requerido.
+        /// </summary>
+        public static string SupplierPhoneRequired {
+            get {
+                return ResourceManager.GetString("SupplierPhoneRequired", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Codigo postal.
+        /// </summary>
+        public static string SupplierPostalCode {
+            get {
+                return ResourceManager.GetString("SupplierPostalCode", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Provincia / region.
+        /// </summary>
+        public static string SupplierRegion {
+            get {
+                return ResourceManager.GetString("SupplierRegion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to La provincia / region es requerida.
+        /// </summary>
+        public static string SupplierRegionRequired {
+            get {
+                return ResourceManager.GetString("SupplierRegionRequired", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Bienvenido a nuestro sitio.
+        /// </summary>
+        public static string WelcomeMessage {
+            get {
+                return ResourceManager.GetString("WelcomeMessage", resourceCulture);
+            }
+        }
     }
 }

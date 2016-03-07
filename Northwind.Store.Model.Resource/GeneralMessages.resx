@@ -135,4 +135,67 @@
   <data name="CategoryNameTitle" xml:space="preserve">
     <value>Nombre</value>
   </data>
+  <data name="SupplierAddress" xml:space="preserve">
+    <value>Direccion</value>
+  </data>
+  <data name="SupplierAddressRequired" xml:space="preserve">
+    <value>La direccion es requerida</value>
+  </data>
+  <data name="SupplierCity" xml:space="preserve">
+    <value>Ciudad</value>
+  </data>
+  <data name="SupplierCityRequired" xml:space="preserve">
+    <value>La ciudad es requerida</value>
+  </data>
+  <data name="SupplierCompanyName" xml:space="preserve">
+    <value>Nombre empresa</value>
+  </data>
+  <data name="SupplierCompanyNameLength" xml:space="preserve">
+    <value>Se requiere entre {2} y {1} caracteres</value>
+  </data>
+  <data name="SupplierCompanyNameRequired" xml:space="preserve">
+    <value>El nombre de la empresa es requerido</value>
+  </data>
+  <data name="SupplierContactName" xml:space="preserve">
+    <value>Nombre contacto</value>
+  </data>
+  <data name="SupplierContactNameLength" xml:space="preserve">
+    <value>Se requiere entre {2} y {1} caracteres</value>
+  </data>
+  <data name="SupplierContactNameRequired" xml:space="preserve">
+    <value>El nombre del contacto es requerido</value>
+  </data>
+  <data name="SupplierContactTitle" xml:space="preserve">
+    <value>Titulo del contacto</value>
+  </data>
+  <data name="SupplierCountry" xml:space="preserve">
+    <value>Pais</value>
+  </data>
+  <data name="SupplierCountryRequired" xml:space="preserve">
+    <value>El pais es requerido</value>
+  </data>
+  <data name="SupplierFax" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="SupplierHomePage" xml:space="preserve">
+    <value>Sitio web</value>
+  </data>
+  <data name="SupplierPhone" xml:space="preserve">
+    <value>Telefono</value>
+  </data>
+  <data name="SupplierPhoneRequired" xml:space="preserve">
+    <value>El  numero telefonico es requerido</value>
+  </data>
+  <data name="SupplierPostalCode" xml:space="preserve">
+    <value>Codigo postal</value>
+  </data>
+  <data name="SupplierRegion" xml:space="preserve">
+    <value>Provincia / region</value>
+  </data>
+  <data name="SupplierRegionRequired" xml:space="preserve">
+    <value>La provincia / region es requerida</value>
+  </data>
+  <data name="WelcomeMessage" xml:space="preserve">
+    <value>Bienvenido a nuestro sitio</value>
+  </data>
 </root>

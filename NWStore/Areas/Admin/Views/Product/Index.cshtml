@@ -1,0 +1,31 @@
+﻿@model IEnumerable<Northwind.Store.Model.Product>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+@{ 
+    //var wg = new WebGrid(Model);
+    var wg = new WebGrid(null, rowsPerPage: 10);
+    wg.Bind(Model, autoSortAndPage: false, rowCount: ViewBag.Total);
+    @*@wg.GetHtml(tableStyle: "table table-striped");*@
+    @wg.GetHtml(
+        columns: wg.Columns(
+            wg.Column("ProductId", "Id"),
+            wg.Column("ProductName", "Nombre"),
+            wg.Column("UnitPrice", "Precio"),
+            wg.Column("Category.CategoryName", "Categoria"),
+            wg.Column(format: item =>
+                item.GetSelectLink("<-")),
+            wg.Column(format: item =>
+                Html.ActionLink("Details", "Details",
+                new { id = item.ProductId }))),
+            tableStyle: "table table-striped",
+            selectedRowStyle:"info");
+}

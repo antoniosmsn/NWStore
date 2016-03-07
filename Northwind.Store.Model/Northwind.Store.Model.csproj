@@ -54,6 +54,7 @@
       <DependentUpon>NWModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Metadata\Category.cs" />
+    <Compile Include="Metadata\Supplier.cs" />
     <Compile Include="NWModel.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -65,6 +66,7 @@
     <Compile Include="OrderDetail.cs">
       <DependentUpon>NWModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="PageFilter.cs" />
     <Compile Include="Product.cs">
       <DependentUpon>NWModel.tt</DependentUpon>
     </Compile>
